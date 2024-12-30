@@ -1,0 +1,178 @@
+{
+  "name": "Prakash Thangaraj",
+  "title": "Front-End Engineer / UX Specialist",
+  "contact": {
+    "location": "India",
+    "phone": "+91 8870690977",
+    "email": "mailfromprakash@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/prakaships/",
+    "github": "https://github.com/ipsrepo",
+    "dribbble": "https://dribbble.com/PrakashIPS"
+  },
+  "about": {
+    "summary": "Frontend Developer with over 10 years of experience in building high-performance web applications and 5+ years in UI/UX design."
+  },
+  "pageHeadings" : {
+    "resume": {
+      "title": "Resume",
+      "text": "Demonstrate my skills, experience, projects and educations"
+    }
+  },
+  "social": [
+    {
+      "title":"Linkedin",
+      "url": "https://www.linkedin.com/in/prakaships/"
+    },
+    {
+      "title":"Dribbble",
+      "url": "http://dribbble.com/prakaships"
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/ipsrepo"
+    }
+  ],
+
+  "skills": {
+    "mainSkills": ["React", "Typescript", "Javascript", "Redux", "Angular", "AEM", "UI/UX"],
+    "frontendDevelopment": [
+      "JavaScript",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "SCSS"
+    ],
+    "frameworksAndLibraries": [
+      "React",
+      "Angular",
+      "Hooks",
+      "Redux",
+      "Thunk",
+      "Saga",
+      "NGRX",
+      "RXJS",
+      "Alpine.js",
+      "TailwindCSS",
+      "Bootstrap",
+      "PrimeNG"
+    ],
+    "apiIntegration": [
+      "REST APIs",
+      "GraphQL",
+      "Swagger",
+      "Micro Services Architecture"
+    ],
+    "testingAndTools": [
+      "Jest",
+      "React Testing Library",
+      "Cypress",
+      "Jasmine",
+      "Karma",
+      "TDD",
+      "Docker",
+      "GG Shield"
+    ],
+    "versionControl": [
+      "GitHub",
+      "Bitbucket",
+      "GitLab",
+      "Azure DevOps",
+      "Bamboo"
+    ],
+    "softSkills": [
+      "Interdepartmental Coordination",
+      "Mentorship",
+      "Code review",
+      "User Experience"
+    ]
+  },
+  "experience": [
+    {
+      "role": "Senior Frontend Developer",
+      "company": "Conneqt Business Solutions (Adobe)",
+      "period": {
+        "from": "Apr 2024",
+        "to" : "present"
+      },
+      "responsibilities": [
+        "Developed controllers, mappers, and components using TypeScript and Alpine.js for seamless integration with AEM and GraphQL APIs.",
+        "Achieved 95% code coverage with Jest and conducted accessibility testing with NVIDIA tools.",
+        "Mentored junior developers and ensured code security with Git Guardian."
+      ]
+    },
+    {
+      "role": "Lead Frontend Engineer",
+      "company": "EMIS Health (UK)",
+      "period": {
+        "from": "Sep 2023",
+        "to" : "Jan 2024"
+      },
+      "responsibilities": [
+        "Enhanced Extract Builder application for the UK NHS, improving data querying and reporting.",
+        "Generated advanced search features and refined application functionality with Cohort-builder-kit."
+      ]
+    },
+    {
+      "role": "Lead Frontend Developer & UI/UX Expert",
+      "company": "MindPro Technologies Pvt Ltd",
+      "period": {
+        "from": "Apr 2014",
+        "to" : "Sep 2023"
+      },
+      "responsibilities": [
+        "Delivered 10+ apps and chatbots using React, Angular, and JavaScript.",
+        "Designed and built 50+ user-centric interfaces using Adobe XD, Photoshop, and Illustrator.",
+        "Maintained code quality through unit testing with Jest, Jasmine, and Karma."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "T-Mobile",
+      "period": "Apr 2024 – Present",
+      "description": "Created dynamic components with TypeScript, Alpine.js, and AEM integration via GraphQL."
+    },
+    {
+      "name": "Extract Builder / Feasibility Service",
+      "period": "Sep 2023 – Jan 2024",
+      "description": "Built features for search creation using React (TypeScript), Redux, and REST APIs."
+    },
+    {
+      "name": "Matrix eServices",
+      "period": "Mar 2019 – Sep 2023",
+      "description": "Developed insurance eClaim projects using Angular, PrimeNG, NGRX, and RXJS."
+    },
+    {
+      "name": "Time Tracker",
+      "period": "Apr 2022 – Mar 2023",
+      "description": "Crafted a user-friendly web app for tracking employee activity using React and TailwindCSS."
+    },
+    {
+      "name": "Assistance Chatbot",
+      "period": "Apr 2018 – Mar 2022",
+      "description": "Built a multi-language chatbot with voice recognition and leave planner charts using Angular."
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Engineering (Computer Science)",
+    "graduationYear": 2013
+  },
+  "certifications": [
+    {
+      "name": "JavaScript Algorithms and Data Structures Masterclass",
+      "platform": "Udemy",
+      "date": "Nov 2024"
+    },
+    {
+      "name": "Learning GitHub",
+      "platform": "LinkedIn",
+      "date": "Oct 2023"
+    }
+  ],
+  "uiWorks": [
+    "https://mindprotech.com/",
+    "https://canstring.ai/",
+    "https://acinfotech.com/",
+    "https://behance.net/prakash_IPS"
+  ]
+}
