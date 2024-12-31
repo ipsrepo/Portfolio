@@ -4,15 +4,12 @@
   "contact": {
     "location": "India",
     "phone": "+91 8870690977",
-    "email": "mailfromprakash@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/prakaships/",
-    "github": "https://github.com/ipsrepo",
-    "dribbble": "https://dribbble.com/PrakashIPS"
+    "email": "mailfromprakash@gmail.com"
   },
   "about": {
     "summary": "Frontend Developer with over 10 years of experience in building high-performance web applications and 5+ years in UI/UX design."
   },
-  "pageHeadings" : {
+  "pageHeadings": {
     "resume": {
       "title": "Resume",
       "text": "Demonstrate my skills, experience, projects and educations"
@@ -20,11 +17,11 @@
   },
   "social": [
     {
-      "title":"Linkedin",
+      "title": "Linkedin",
       "url": "https://www.linkedin.com/in/prakaships/"
     },
     {
-      "title":"Dribbble",
+      "title": "Dribbble",
       "url": "http://dribbble.com/prakaships"
     },
     {
@@ -33,16 +30,26 @@
     }
   ],
 
-  "skills": {
-    "mainSkills": ["React", "Typescript", "Javascript", "Redux", "Angular", "AEM", "UI/UX"],
-    "frontendDevelopment": [
+  "mainSkills": [
+    "React",
+    "Typescript",
+    "Javascript",
+    "Redux",
+    "Angular",
+    "AEM",
+    "HTML/CSS",
+    "UI/UX"
+  ],
+
+  "expertise": {
+    "Frontend Development": [
       "JavaScript",
       "TypeScript",
       "HTML5",
       "CSS3",
       "SCSS"
     ],
-    "frameworksAndLibraries": [
+    "frameworks & Libraries": [
       "React",
       "Angular",
       "Hooks",
@@ -56,7 +63,7 @@
       "Bootstrap",
       "PrimeNG"
     ],
-    "apiIntegration": [
+    "api Integration & micro service": [
       "REST APIs",
       "GraphQL",
       "Swagger",
@@ -88,85 +95,111 @@
   },
   "experience": [
     {
-      "role": "Senior Frontend Developer",
-      "company": "Conneqt Business Solutions (Adobe)",
+      "title": "Senior Frontend Developer",
+      "subTitle": "Conneqt Business Solutions (Adobe)",
       "period": {
         "from": "Apr 2024",
-        "to" : "present"
+        "to": "present"
       },
-      "responsibilities": [
-        "Developed controllers, mappers, and components using TypeScript and Alpine.js for seamless integration with AEM and GraphQL APIs.",
-        "Achieved 95% code coverage with Jest and conducted accessibility testing with NVIDIA tools.",
-        "Mentored junior developers and ensured code security with Git Guardian."
+      "details": [
+        "Developed controllers, mappers, and components using *TypeScript* and *Alpine.js* for seamless integration with *AEM* and *GraphQL* APIs. Effective collaboration between front-end, AEM, and architects.",
+        "Attended *code quality* sessions to deepen understanding of best practices and optimized performance through strategic problem-solving.",
+        "Achieved 95% code coverage with Jest and ensured high-quality code. Conducted accessibility testing with NVIDIA tools for inclusive, user-friendly applications.",
+        "Provided mentorship to junior developers, conducted code reviews, and ensured adherence to best practices while maintaining code security using Git Guardian."
       ]
     },
     {
-      "role": "Lead Frontend Engineer",
-      "company": "EMIS Health (UK)",
+      "title": "Lead Frontend Engineer",
+      "subTitle": "EMIS Health (UK)",
       "period": {
         "from": "Sep 2023",
-        "to" : "Jan 2024"
+        "to": "Jan 2024"
       },
-      "responsibilities": [
-        "Enhanced Extract Builder application for the UK NHS, improving data querying and reporting.",
-        "Generated advanced search features and refined application functionality with Cohort-builder-kit."
+      "details": [
+        "Enhanced the Extract Builder application for the UK NHS, streamlining data querying and reporting for government submissions.",
+        "Generated advanced search features and robust report generation for comprehensive healthcare data analysis.",
+        "Managed clinical and ethnicity codes, ensuring accurate and compliant data handling for government reports.",
+        "Refined application functionality using the Cohort-builder-kit, Query Manager, and Query Builder Library for seamless integration."
       ]
     },
     {
-      "role": "Lead Frontend Developer & UI/UX Expert",
-      "company": "MindPro Technologies Pvt Ltd",
+      "title": "Lead Frontend Developer & UI/UX Expert",
+      "subTitle": "MindPro Technologies Pvt Ltd",
       "period": {
         "from": "Apr 2014",
-        "to" : "Sep 2023"
+        "to": "Sep 2023"
       },
-      "responsibilities": [
-        "Delivered 10+ apps and chatbots using React, Angular, and JavaScript.",
-        "Designed and built 50+ user-centric interfaces using Adobe XD, Photoshop, and Illustrator.",
-        "Maintained code quality through unit testing with Jest, Jasmine, and Karma."
+      "details": [
+        "Delivered 10+ apps, and chatbots using React, Angular, JavaScript, HTML5, CSS3, and SCSS with expertise in Redux, NGRX, and RXJS for state management while managing multiple projects simultaneously.",
+        "Integrated REST APIs with front-end applications and documented APIs using Swagger for seamless backend communication and API management.",
+        "Led UI/UX design, built 50+ user-centric, responsive interfaces focused on enhancing user experience using Adobe XD, Photoshop, and Illustrator, with select designs showcased on Dribbble.",
+        "Ensured code quality through TDD, unit testing with Jest, Jasmin, Karma, and React Testing Library, maintaining good code coverage, and collaborated via GitHub, Bitbucket, and Azure DevOps.",
+        "Managed projects using Agile (Scrum) methodologies, collaborating with Inter-Team Cooperation and conducting code reviews to drive performance and ensure best practices."
       ]
     }
   ],
   "projects": [
     {
-      "name": "T-Mobile",
-      "period": "Apr 2024 – Present",
-      "description": "Created dynamic components with TypeScript, Alpine.js, and AEM integration via GraphQL."
+      "title": "T-Mobile",
+      "period": { "from": "Apr 2024", "to": "Present" },
+      "technology": ["TypeScript", "AEM", "Alpin.js", "GraphQL", "Jest"],
+      "details": [
+        "Created dynamic components with TypeScript, Alpine.js, and unified them with AEM via GraphQL and ensured code security with GG Shield.",
+        "Utilized Docker for environment management and CRX package manager for handle AEM packages."
+      ]
     },
     {
-      "name": "Extract Builder / Feasibility Service",
-      "period": "Sep 2023 – Jan 2024",
-      "description": "Built features for search creation using React (TypeScript), Redux, and REST APIs."
+      "title": "Extract Builder / Feasibility Service",
+      "period": { "from": "Sep 2023", "to": "Jan 2024" },
+      "details": [
+        "Worked on Query Builder application using React (TypeScript), Redux, and REST API integration.",
+        "Constructed features for search creation, allowing doctors to filter datasets based on various criteria"
+      ]
     },
     {
-      "name": "Matrix eServices",
-      "period": "Mar 2019 – Sep 2023",
-      "description": "Developed insurance eClaim projects using Angular, PrimeNG, NGRX, and RXJS."
+      "title": "Matrix eServices",
+      "period": { "from": "Mar 2019", "to": "Sep 2023" },
+      "details": [
+        "Built insurance eClaim projects using Angular, PrimeNG, NGRX and RXJS.",
+        "Build multi repo level components, modal, mock data and Templates, used ADO for agile and CI/CD."
+      ]
     },
     {
-      "name": "Time Tracker",
-      "period": "Apr 2022 – Mar 2023",
-      "description": "Crafted a user-friendly web app for tracking employee activity using React and TailwindCSS."
+      "title": "Time Tracker",
+      "period": { "from": "Apr 2022", "to": "Mar 2023" },
+      "details": [
+        "Crafted a user-friendly web app for tracking employee activity using React, Redux Tool Kit,TailwindCSS and REST",
+        "Solely responsible for managing the entire front-end development."
+      ]
     },
     {
-      "name": "Assistance Chatbot",
-      "period": "Apr 2018 – Mar 2022",
-      "description": "Built a multi-language chatbot with voice recognition and leave planner charts using Angular."
+      "title": "Assistance Chatbot",
+      "period": { "from": "Apr 2018", "to": "Mar 2022" },
+      "details": [
+        "Built a multi-language chatbot with voice recognition and voice playback features using Angular and Synthesized with REST APIs.",
+        "Generated chart for leave planner using JavaScript to calculate and display user data, achieving functionality without relying on external libraries."
+      ]
     }
   ],
-  "education": {
-    "degree": "Bachelor of Engineering (Computer Science)",
-    "graduationYear": 2013
-  },
-  "certifications": [
+  "education": [
     {
-      "name": "JavaScript Algorithms and Data Structures Masterclass",
-      "platform": "Udemy",
-      "date": "Nov 2024"
+      "title": "Bachelor of Engineering (Computer Science)",
+      "date": "2024",
+      "school": "Anna University, Chennai"
+    }
+  ],
+  "certification": [
+    {
+      "title": "JavaScript Algorithms and Data Structures Masterclass",
+      "date": "Nov 2024",
+      "school": "Udemy",
+      "credentials": "http://www.google.com"
     },
     {
-      "name": "Learning GitHub",
-      "platform": "LinkedIn",
-      "date": "Oct 2023"
+      "title": "Learning GitHub",
+      "date": "Oct 2023",
+      "school": "LinkedIn",
+      "credentials": "http://www.google.com"
     }
   ],
   "uiWorks": [
