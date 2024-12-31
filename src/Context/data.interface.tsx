@@ -1,45 +1,62 @@
 export interface IContext {
-    data : IData,
+    data: IData,
     loading: boolean
 }
 
-export interface IData{
+export interface IData {
     name: string;
     title: string;
     about: IAbout
-    skills: ISkills;
+    mainSkills: Array<string>;
+    expertise: IExpertise;
     pageHeadings: IPageHeadings
     social: Array<ISocial>;
-    experience: Array<IExperience>;
+    experience: Array<IContentCard>;
+    projects: Array<IContentCard>;
+    education: Array<IEducation>;
+    certification: Array<ICertification>
 }
 
-export interface IExperience{
-    role: string;
-    company: string;
+export interface IContentCard {
+    title: string;
+    subTitle?: string;
+    technology?: Array<string>
     period: {
         from: string | number;
         to: string | number
     }
-    responsibilities: Array<string>
+    details: Array<string>
 }
-export interface IPageHeadings{
+export interface IPageHeadings {
     resume: PageHeadings
 }
 
-export interface PageHeadings{
+export interface PageHeadings {
     title: string;
     text?: string;
 }
 
-export interface ISocial{
+export interface ISocial {
     title: string;
     url: string;
 }
 
-export interface  IAbout{
+export interface IAbout {
     summary: string;
 }
 
-export interface ISkills{
-    mainSkills : Array<string>
+export interface IExpertise {
+    [section: string]: string[];
 }
+
+export interface IEducation {
+    title: string;
+    date: string;
+    school: string
+}
+
+export interface ICertification extends IEducation {
+    credentials: string;
+}
+
+export type EducationCardProps = IEducation | ICertification;

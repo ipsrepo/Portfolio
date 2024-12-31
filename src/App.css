@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;800&display=swap");
 
 @tailwind base;
 @tailwind screens;
 @tailwind utilities;
 
-body{
-    @apply text-primary;
-    @apply dark:text-white;
-    @apply bg-light;
-    @apply leading-normal;
+body {
+  @apply text-primary;
+  @apply dark:text-white;
+  @apply bg-light;
+  @apply leading-normal;
 }
-.flex-center{
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+
+.flex-center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.section {
+  @apply p-6 pb-2;
 }
